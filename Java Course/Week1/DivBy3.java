@@ -24,6 +24,6 @@ public class DivBy3
         }
         nos++;
     }
-    System.out.print(sum)
+    System.out.print(sum);
     }
 }
