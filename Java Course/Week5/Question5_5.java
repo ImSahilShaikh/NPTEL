@@ -20,14 +20,16 @@ public class Question5_5
         j = b[0] ; 	
       break;
       default:
-	       System.out.print("No exception");
-	 }
+	System.out.print("No exception");
+    }
 }
-catch(ArithmeticException ae)
-{
-  System.out.print("java.lang.ArithmeticException: / by zero");
-}
-catch(NullPointerException ne)
-{
-  System.out.print("java.lang.NullPointerException");
+	catch(ArithmeticException ae)
+	{
+		System.out.print("java.lang.ArithmeticException: / by zero");
+	}
+	catch(NullPointerException ne)
+	{
+		System.out.print("java.lang.NullPointerException");
+	}
+  }
 }
