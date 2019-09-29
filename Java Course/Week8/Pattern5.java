@@ -1,0 +1,94 @@
+import java.util.*;
+public class Pattern5
+{
+	public static void five()
+	{
+		System.out.println(" _ ");
+		System.out.println("|_ ");
+		System.out.print(" _|");
+	}
+	public static void six()
+	{
+		System.out.println(" _ ");
+		System.out.println("|_ ");
+		System.out.print("|_|");
+	}
+	public static void three()
+	{
+		System.out.println(" _ ");
+		System.out.println(" _|");
+		System.out.print(" _|");
+	}
+	public static void two()
+	{
+		System.out.println(" _ ");
+		System.out.println(" _|");
+    		System.out.print("|_ ");
+	}
+	public static void one()
+	{
+		System.out.println();
+    		System.out.println("  |");
+		System.out.print("  |");
+	}
+	public static void four()
+	{
+		System.out.println();
+		System.out.println("|_|");
+		System.out.print("  |");
+	}
+	public static void seven()
+	{
+		System.out.println(" _ ");
+		System.out.println("  |");
+		System.out.print("  |");
+	}
+	public static void eight()
+	{
+		System.out.println(" _ ");
+		System.out.println("|_|");
+		System.out.print("|_|");
+	}
+	public static void nine()
+	{
+		System.out.println(" _ ");
+		System.out.println("|_|");
+		System.out.print(" _|");
+	}
+	public static void main(String[] args) throws Exception
+	{
+		Scanner inr = new Scanner(System.in);
+		int n = inr.nextInt();
+		// Add the necessary code in the below space  
+		switch(n)
+		{
+			case 5:
+				five();
+				break;
+			case 4:
+				four();
+				break;
+			case 1:
+				one();
+				break;
+			case 2:
+				two();
+				break;
+			case 3:
+				three();
+				break;
+			case 6:
+				six();
+				break;
+			case 7:
+				seven();
+				break;
+			case 8:
+				eight();
+				break;
+			case 9:
+				nine();
+				break;
+	     	}		    
+	}
+}
