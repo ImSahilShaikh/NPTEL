@@ -1,3 +1,5 @@
+//This is question 5
+
 import java.sql.*;
 import java.lang.*;
 public class RenameTable {
