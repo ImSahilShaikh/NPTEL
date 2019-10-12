@@ -1,3 +1,5 @@
+//There's some compilation issue in this question by server side! Code is correct
+
 import java.sql.*;
 import java.lang.*;
 public class CalAverage {
